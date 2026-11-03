@@ -1,0 +1,13 @@
+{
+  "name": "aifactory-playground",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny project the aifactory uses to prove that an issue becomes a verified pull request.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
