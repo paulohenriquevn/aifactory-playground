@@ -5,3 +5,5 @@ export function repeat(text, n) {
   }
   return text.repeat(n)
 }
+
+export default repeat
