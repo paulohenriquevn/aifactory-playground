@@ -21,3 +21,7 @@ test('throws RangeError when max is below 1', () => {
   assert.throws(() => truncate('hello', 0), RangeError)
   assert.throws(() => truncate('hello', -3), RangeError)
 })
+
+test('returns text unchanged when it is exactly max long', () => {
+  assert.equal(truncate('abcde', 5), 'abcde')
+})
