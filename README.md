@@ -8,3 +8,7 @@ npm test
 ```
 
 Open an issue and add the `factory` label to hand it to the factory.
+
+## Helpers
+
+`slugify`, `isOdd`, `truncate` and `capitalize`, in `src/`.
