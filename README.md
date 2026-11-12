@@ -11,4 +11,4 @@ Open an issue and add the `factory` label to hand it to the factory.
 
 ## Helpers
 
-`slugify`, `isOdd`, `truncate` and `capitalize`, in `src/`.
+`slugify`, `isOdd`, `isEven`, `truncate` and `capitalize`, in `src/`.
